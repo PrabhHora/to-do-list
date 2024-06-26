@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.App-main {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.list {
+  background-color: white;
+  background-image: url("https://www.transparenttextures.com/patterns/paper-1.png");
+  padding-bottom: 50px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px black solid;
+  background: none;
+  outline: none;
+  font-size: 2.5rem;
+}
+
+input::placeholder {
+  color: black;
+  opacity: 0.6;
+}
+
+#addButton {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 20px;
+  background-color: orange;
+}
+
+ul {
+  padding-left: 100px;
+  padding-top: 20px;
+  font-size: 1.7rem;
+  text-align: left;
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.item input {
+  font-size: 1.7rem;
+}
+
+.item #btn {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
